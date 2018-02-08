@@ -10,4 +10,4 @@ Les pages des utilisateurs affichent les éventuels événements auquels ils par
 
 Pour tester l'app de manière plus complète, tu peux cloner ou télécharger ce repo et la faire tourner en local.
 
-**Have fun 🌴 **
+**Have fun** 🌴
