@@ -1,24 +1,12 @@
-# README
+# Hello !
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+L'app est fonctionnelle jusqu'au point 3.1
 
-Things you may want to cover:
+Elle est disponible sur Heroku à l'adresse suivante : https://thawing-dusk-35750.herokuapp.com/
+Tu peux créer un compte, te logger / délogger, créer un événement lorsque tu es connecté et consulter les pages des autres users et des événements.
 
-* Ruby version
+Les pages des utilisateurs affichent les éventuels événements auquels ils participeront ; les pages des événements affichent la liste des participants, s'il y en a.
 
-* System dependencies
+Pour tester l'app de manière plus complète, tu peux cloner ou télécharger ce repo et la faire tourner en local.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+**Have fun 🌴 **
