@@ -1,0 +1,15 @@
+<h1>Créer un nouvel utilisateur</h1>
+
+    <%= form_for @user, url: {controller: "users", action: "create"}, html: {class: "nifty-form"} do |f| %>
+
+      <%= f.label "Nom" %>
+      <%= f.text_field :name %>
+
+      <%= f.label "Password" %>
+      <%= f.password_field :password %>
+
+      <%= f.label :password_confirmation, "Confirmation" %>
+      <%= f.password_field :password_confirmation %>      
+
+      <%= f.submit "Créer le profil", class: "btn btn-lg btn-primary" %>
+    <% end %>
