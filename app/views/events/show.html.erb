@@ -5,3 +5,10 @@
 <%= @event.description %>
 <%= @event.date %>
 <%= @event.place %>
+
+<% if @event.attendees.empty? == false %>
+<p>Participants à l'événement :</p>
+  <% @event.attendees.each do |attendee| %>
+    <%= attendee.name %>
+    <% end %>
+<% end %>  
