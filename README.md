@@ -1,0 +1,12 @@
+Hello !
+L'app est fonctionnelle jusqu'au point 3.1
+
+Elle est disponible sur Heroku à l'adresse suivante : https://thawing-dusk-35750.herokuapp.com/
+
+Tu peux créer un compte, te logger / délogger, créer un événement lorsque tu es connecté et consulter les pages des autres users et des événements.
+
+Les pages des utilisateurs affichent les éventuels événements auquels ils participeront ; les pages des événements affichent la liste des participants, s'il y en a.
+
+Pour tester l'app de manière plus complète, tu peux cloner ou télécharger ce repo et la faire tourner en local.
+
+Have fun 🌴
