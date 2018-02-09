@@ -11,4 +11,8 @@
   <% @event.attendees.each do |attendee| %>
     <%= attendee.name %>
     <% end %>
-<% end %>  
+<% end %> 
+
+<%= form_for(:event, url: suscribe_event_path(@event)) do |f| %>
+  <%= f.submit "Rejoindre l'événement" %>
+<% end %>

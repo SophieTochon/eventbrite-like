@@ -15,6 +15,12 @@ class EventsController < ApplicationController
   	@creator = @event.creator_id
   end
 
+  def suscribe
+    @event = Event.find(params[:id])
+    @event.attendees << current_user
+    redirect_to @event
+  end
+
   def index
   	@events = Event.all
   end
